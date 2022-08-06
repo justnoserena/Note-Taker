@@ -2,7 +2,7 @@ const router = require('express').Router();
 const fs = require('fs');
 
 
-router.get('/api/notes', (req, res) =>{
+router.get('/notes', (req, res) =>{
     fs.readFile('db/db.json', 'utf-8', (err,data) => {
         console.log(data)
         if (err) throw err;
@@ -10,7 +10,7 @@ router.get('/api/notes', (req, res) =>{
     })
 })
 
-router.post('/api/notes', (req,res) => {
+router.post('/notes', (req,res) => {
     fs.readFile('db/db.json', (err,data) => {
         if (err) throw err;
         let json = JSON.parse(data)
