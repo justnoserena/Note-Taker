@@ -20,7 +20,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ```
 
 ## Links
-
+[Github Repository][https://github.com/justnoserena/Note-Taker]
+[Deployed Application][https://evening-badlands-47376.herokuapp.com/notes]
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
